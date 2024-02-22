@@ -3,22 +3,19 @@
 <html lang="fr">
   <head>
     <title>Article Page</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-    name="description"
-    content="Cette page est la page de mon article"
-  />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="description" content="Cette page est la page de mon article" >
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-    />
-    <link rel="stylesheet" href="../assets/styles.css" />
+    >
+    <link rel="stylesheet" href="../assets/styles.css" >
   </head>
 
   <body>
     <div class="container mx-auto flex flex-col w-full">
-        <a id="top"></a>
+      <a id="top"></a>
       <header
         id="header"
         class="w-full p-4 flex flex-col md:flex-row justify-between items-center md:items-start"
@@ -32,41 +29,190 @@
           <h2>Login</h2>
         </div>
       </header>
-     
-      <main id="content w-full mx-auto justify-between flex flex-col h-full">
-        <div id="article" class=" mx-auto align-center flex m-4 flex-col">
-          <h1 id="title-article" class="font-bold text-2xl md:text-4xl mb-4">Titre article</h1>
-          <p id="description-article" class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            mollis eleifend dui, aliquam viverra augue sodales a. Ut tortor
-            massa, aliquet semper aliquam ac, elementum nec purus. Mauris
-            eget varius sem, et vulputate dolor. Aliquam dictum facilisis
-            augue, non efficitur nisl sollicitudin quis. Sed vitae convallis
-            velit, aliquet consectetur purus. Nulla eget libero congue,
-            vehicula libero quis, laoreet sapien. Suspendisse id porta
-            mauris, a finibus purus. Donec sagittis enim pretium massa
-            blandit sodales. In ex mi, volutpat eget nisl id, ornare
-            fringilla nisl. Aenean quis porta felis. Morbi in dui auctor,
-            lobortis odio eget, commodo nisi. Nulla tempor suscipit ligula
-            id posuere. Fusce aliquet nisl sit amet turpis gravida, in
+
+      <main
+        class="content w-full mx-auto justify-between flex flex-col h-full mb-10"
+      >
+        <div
+          id="article"
+          class="mx-auto align-center flex m-4 flex-col"
+          role="article"
+        >
+          <h1 id="title-article" class="font-bold text-2xl md:text-4xl mb-4">
+            Titre article
+          </h1>
+          <p
+            id="description-article"
+            class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis
+            eleifend dui, aliquam viverra augue sodales a. Ut tortor massa,
+            aliquet semper aliquam ac, elementum nec purus. Mauris eget varius
+            sem, et vulputate dolor. Aliquam dictum facilisis augue, non
+            efficitur nisl sollicitudin quis. Sed vitae convallis velit, aliquet
+            consectetur purus. Nulla eget libero congue, vehicula libero quis,
+            laoreet sapien. Suspendisse id porta mauris, a finibus purus. Donec
+            sagittis enim pretium massa blandit sodales. In ex mi, volutpat eget
+            nisl id, ornare fringilla nisl. Aenean quis porta felis. Morbi in
+            dui auctor, lobortis odio eget, commodo nisi. Nulla tempor suscipit
+            ligula id posuere. Fusce aliquet nisl sit amet turpis gravida, in
             hendrerit libero vehicula.
           </p>
-        <div class="content-table">
-          <div id="table">
+          <div class="content-table flex flex-col">
+            <table
+              class="border-collapse w-full mb-4"
+              role="table"
+              aria-label="Tableau d'informations de l'article"
+            >
+              <thead>
+                <tr>
+                  <th
+                    class="border border-gray-700 px-4 py-2"
+                    role="columnheader"
+                  >
+                    Column 1
+                  </th>
+                  <th
+                    class="border border-gray-700 px-4 py-2"
+                    role="columnheader"
+                  >
+                    Column 2
+                  </th>
+                  <th
+                    class="border border-gray-700 px-4 py-2"
+                    role="columnheader"
+                  >
+                    Column 3
+                  </th>
+                  <th
+                    class="border border-gray-700 px-4 py-2"
+                    role="columnheader"
+                  >
+                    Column 4
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 1</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 2</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 3</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 4</td>
+                </tr>
 
+                <tr>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 1</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 2</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 3</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 4</td>
+                </tr>
+
+                <tr>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 1</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 2</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 3</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 4</td>
+                </tr>
+
+                <tr>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 1</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 2</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 3</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 4</td>
+                </tr>
+
+                <tr>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 1</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 2</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 3</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 4</td>
+                </tr>
+
+                <tr>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 1</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 2</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 3</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 4</td>
+                </tr>
+
+                <tr>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 1</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 2</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 3</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 4</td>
+                </tr>
+                <tr>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 1</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 2</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 3</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 4</td>
+                </tr>
+                <tr>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 1</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 2</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 3</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 4</td>
+                </tr>
+                <tr>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 1</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 2</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 3</td>
+                  <td class="border border-gray-700 px-4 py-2">Row 1, Col 4</td>
+                </tr>
+              </tbody>
+            </table>
+            <hr class="my-4 border-t-2 border-gray-300" />
+            <div
+              id="contain-commentaires"
+              aria-labelledby="contain-commentaires"
+            >
+              <h2>Commentaires :</h2>
+              <div
+                class="commentaire flex flex-col md:flex-row items-center mb-4 mt-4"
+                role="article"
+                id="user1-heading"
+                aria-labelledby="user1-heading"
+              >
+                <div
+                  class="w-12 h-12 bg-gray-500 rounded-full mr-4"
+                  aria-hidden="true"
+                ></div>
+
+                <div class="flex-1">
+                  <h3 class="text-lg font-semibold mb-2">@PSEUDO</h3>
+
+                  <p class="text-gray-700">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    mollis eleifend dui, aliquam viverra augue sodales a. Ut
+                    tortor massa, aliquet semper aliquam ac, elementum nec
+                    purus. Mauris eget varius sem, et vulputate dolor. Aliquam
+                    dictum facilisis augue, non efficitur nisl sollicitudin
+                    quis. Sed vitae convallis velit, aliquet consectetur purus.
+                    Nulla eget libero congue, vehicula libero quis, laoreet
+                    sapien. Suspendisse id porta mauris, a finibus purus. Donec
+                    sagittis enim pretium massa blandit sodales.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        
-        </div>
-
 
         <a href="#top">
-            <div id="btn-back-top">
-                <img src="../assets/arrow.png" alt="arrow-up" class="w-10 h-10 bottom-20 fixed right-10" />
-            </div>
+          <div id="btn-back-top">
+            <img
+              src="../assets/arrow.png"
+              alt="arrow-up"
+              class="w-10 h-10 bottom-20 fixed right-10"
+            />
+          </div>
         </a>
-    </main>
-      <div id="footer" class="fixed bottom-0 w-full bg-gray-200 p-4">
+      </main>
+      <div
+        id="footer"
+        class="fixed bottom-0 w-full bg-gray-200 p-4"
+        role="contentinfo"
+      >
         <p>&copy; 2024 Test. Tous droits réservés.</p>
       </div>
     </div>
