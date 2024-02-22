@@ -1,195 +1,82 @@
 <!DOCTYPE html>
 
 <html lang="fr">
-  <head>
-    <title>Accueil</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-    />
-    <link rel="stylesheet" href="./assets/styles.css" />
-  </head>
 
-  <body>
-    <div class="container mx-auto flex flex-col w-full">
-        <a id="top"></a>
-      <header
-        id="header"
-        class="w-full p-4 flex flex-col md:flex-row justify-between items-center md:items-start"
-      >
-        <div id="infos-header" class="flex items-center mb-2 md:mb-0">
-          <div id="logo" class="w-10 h-10 bg-gray-500"></div>
-          <h2 class="ml-2">Accueil</h2>
-        </div>
+<head>
+  <title>Accueil</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
 
-        <div id="menu">
-          <h2>Login</h2>
-        </div>
-      </header>
-     
-      <main class="content w-full mx-auto">
-        <div
-          id="list-articles"
-          class="w-full justify-center flex align-center mx-auto flex-col justify-center items-center "
-        >
-        <h1 class="title-list-articles text-left">Liste articles</h1>
-          <div class="articles m-2">
-            <h1 class="mb-4">Article 1</h1>
-            <div class="detail-articles flex flex-col md:flex-row items-center">
-              <p class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                mollis eleifend dui, aliquam viverra augue sodales a. Ut tortor
-                massa, aliquet semper aliquam ac, elementum nec purus. Mauris
-                eget varius sem, et vulputate dolor. Aliquam dictum facilisis
-                augue, non efficitur nisl sollicitudin quis. Sed vitae convallis
-                velit, aliquet consectetur purus. Nulla eget libero congue,
-                vehicula libero quis, laoreet sapien. Suspendisse id porta
-                mauris, a finibus purus. Donec sagittis enim pretium massa
-                blandit sodales. In ex mi, volutpat eget nisl id, ornare
-                fringilla nisl. Aenean quis porta felis. Morbi in dui auctor,
-                lobortis odio eget, commodo nisi. Nulla tempor suscipit ligula
-                id posuere. Fusce aliquet nisl sit amet turpis gravida, in
-                hendrerit libero vehicula.
-              </p>
-              <div class="img-article w-full md:w-3/12">
-                <img
-                  src="https://fastly.picsum.photos/id/428/300/200.jpg?hmac=ikKOcamKDMicSZKD7eMbhzgMNNbyCucuLohsjaMt740"
-                  alt="img-article-1"
-                  class="w-full"
-                />
-              </div>
-            </div>
-            <h1 class="mb-4">Commentaires 0</h1>
-          </div>
-          <hr />
-          <div class="articles m-2">
-            <h1 class="mb-4">Article 1</h1>
-            <div class="detail-articles flex flex-col md:flex-row items-center">
-              <p class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                mollis eleifend dui, aliquam viverra augue sodales a. Ut tortor
-                massa, aliquet semper aliquam ac, elementum nec purus. Mauris
-                eget varius sem, et vulputate dolor. Aliquam dictum facilisis
-                augue, non efficitur nisl sollicitudin quis. Sed vitae convallis
-                velit, aliquet consectetur purus. Nulla eget libero congue,
-                vehicula libero quis, laoreet sapien. Suspendisse id porta
-                mauris, a finibus purus. Donec sagittis enim pretium massa
-                blandit sodales. In ex mi, volutpat eget nisl id, ornare
-                fringilla nisl. Aenean quis porta felis. Morbi in dui auctor,
-                lobortis odio eget, commodo nisi. Nulla tempor suscipit ligula
-                id posuere. Fusce aliquet nisl sit amet turpis gravida, in
-                hendrerit libero vehicula.
-              </p>
-              <div class="img-article w-full md:w-3/12">
-                <img
-                  src="https://fastly.picsum.photos/id/428/300/200.jpg?hmac=ikKOcamKDMicSZKD7eMbhzgMNNbyCucuLohsjaMt740"
-                  alt="img-article-1"
-                  class="w-full"
-                />
-              </div>
-            </div>
-            <h1 class="mb-4">Commentaires 0</h1>
-          </div>
-
-          <div class="articles m-2">
-            <h1 class="mb-4">Article 1</h1>
-            <div class="detail-articles flex flex-col md:flex-row items-center">
-              <p class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                mollis eleifend dui, aliquam viverra augue sodales a. Ut tortor
-                massa, aliquet semper aliquam ac, elementum nec purus. Mauris
-                eget varius sem, et vulputate dolor. Aliquam dictum facilisis
-                augue, non efficitur nisl sollicitudin quis. Sed vitae convallis
-                velit, aliquet consectetur purus. Nulla eget libero congue,
-                vehicula libero quis, laoreet sapien. Suspendisse id porta
-                mauris, a finibus purus. Donec sagittis enim pretium massa
-                blandit sodales. In ex mi, volutpat eget nisl id, ornare
-                fringilla nisl. Aenean quis porta felis. Morbi in dui auctor,
-                lobortis odio eget, commodo nisi. Nulla tempor suscipit ligula
-                id posuere. Fusce aliquet nisl sit amet turpis gravida, in
-                hendrerit libero vehicula.
-              </p>
-              <div class="img-article w-full md:w-3/12">
-                <img
-                  src="https://fastly.picsum.photos/id/428/300/200.jpg?hmac=ikKOcamKDMicSZKD7eMbhzgMNNbyCucuLohsjaMt740"
-                  alt="img-article-1"
-                  class="w-full"
-                />
-              </div>
-            </div>
-            <h1 class="mb-4">Commentaires 0</h1>
-          </div>
-
-          <div class="articles m-2">
-            <h1 class="mb-4">Article 1</h1>
-            <div class="detail-articles flex flex-col md:flex-row items-center">
-              <p class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                mollis eleifend dui, aliquam viverra augue sodales a. Ut tortor
-                massa, aliquet semper aliquam ac, elementum nec purus. Mauris
-                eget varius sem, et vulputate dolor. Aliquam dictum facilisis
-                augue, non efficitur nisl sollicitudin quis. Sed vitae convallis
-                velit, aliquet consectetur purus. Nulla eget libero congue,
-                vehicula libero quis, laoreet sapien. Suspendisse id porta
-                mauris, a finibus purus. Donec sagittis enim pretium massa
-                blandit sodales. In ex mi, volutpat eget nisl id, ornare
-                fringilla nisl. Aenean quis porta felis. Morbi in dui auctor,
-                lobortis odio eget, commodo nisi. Nulla tempor suscipit ligula
-                id posuere. Fusce aliquet nisl sit amet turpis gravida, in
-                hendrerit libero vehicula.
-              </p>
-              <div class="img-article w-full md:w-3/12">
-                <img
-                  src="https://fastly.picsum.photos/id/428/300/200.jpg?hmac=ikKOcamKDMicSZKD7eMbhzgMNNbyCucuLohsjaMt740"
-                  alt="img-article-1"
-                  class="w-full"
-                />
-              </div>
-            </div>
-            <h1 class="mb-4">Commentaires 0</h1>
-          </div>
-
-          <div class="articles m-2">
-            <h1 class="mb-4">Article 1</h1>
-            <div class="detail-articles flex flex-col md:flex-row items-center">
-              <p class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                mollis eleifend dui, aliquam viverra augue sodales a. Ut tortor
-                massa, aliquet semper aliquam ac, elementum nec purus. Mauris
-                eget varius sem, et vulputate dolor. Aliquam dictum facilisis
-                augue, non efficitur nisl sollicitudin quis. Sed vitae convallis
-                velit, aliquet consectetur purus. Nulla eget libero congue,
-                vehicula libero quis, laoreet sapien. Suspendisse id porta
-                mauris, a finibus purus. Donec sagittis enim pretium massa
-                blandit sodales. In ex mi, volutpat eget nisl id, ornare
-                fringilla nisl. Aenean quis porta felis. Morbi in dui auctor,
-                lobortis odio eget, commodo nisi. Nulla tempor suscipit ligula
-                id posuere. Fusce aliquet nisl sit amet turpis gravida, in
-                hendrerit libero vehicula.
-              </p>
-              <div class="img-article w-full md:w-3/12">
-                <img
-                  src="https://fastly.picsum.photos/id/428/300/200.jpg?hmac=ikKOcamKDMicSZKD7eMbhzgMNNbyCucuLohsjaMt740"
-                  alt="img-article-1"
-                  class="w-full"
-                />
-              </div>
-            </div>
-            <h1 class="mb-4">Commentaires 0</h1>
-          </div>
-        </div>
-
-        <a href="#top">
-            <div id="btn-back-top">
-                <img src="./assets/arrow.png" alt="arrow-up" class="w-10 h-10 bottom-20 fixed right-10" />
-            </div>
-        </a>
-    </main>
-      <div id="footer" class="fixed bottom-0 w-full bg-gray-200 p-4">
-        <p>&copy; 2024 Test. Tous droits réservés.</p>
+<body>
+  <div class="container mx-auto flex flex-col w-full">
+    <a id="top"></a>
+    <header id="header" class="w-full p-4 flex flex-col md:flex-row justify-between items-center md:items-start">
+      <div id="infos-header" class="flex items-center mb-2 md:mb-0">
+        <div id="logo" class="w-10 h-10 bg-gray-500" aria-hidden="true"></div>
+        <h1 class="ml-2">Accueil</h1>
       </div>
+
+      <div id="menu">
+        <h2>Login</h2>
+      </div>
+    </header>
+
+    <main class="content w-full mx-auto">
+      <div id="list-articles" class="w-full justify-center flex align-center mx-auto flex-col justify-center items-center">
+        <h2 class="title-list-articles text-left">Liste articles</h2>
+        <div class="articles m-2">
+          <h1 class="mb-4 text-lg md:text-xl">Article 1</h1>
+
+          <div class="detail-articles flex flex-col md:flex-row items-center">
+            <p class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis eleifend dui, aliquam viverra augue sodales
+              a. Ut tortor massa, aliquet semper aliquam ac, elementum nec purus. Mauris eget varius sem, et vulputate
+              dolor. Aliquam dictum facilisis augue, non efficitur nisl sollicitudin quis. Sed vitae convallis velit,
+              aliquet consectetur purus. Nulla eget libero congue, vehicula libero quis, laoreet sapien. Suspendisse id
+              porta mauris, a finibus purus. Donec sagittis enim pretium massa blandit sodales. In ex mi, volutpat eget
+              nisl id, ornare fringilla nisl. Aenean quis porta felis. Morbi in dui auctor, lobortis odio eget, commodo
+              nisi. Nulla tempor suscipit ligula id posuere. Fusce aliquet nisl sit amet turpis gravida, in hendrerit
+              libero vehicula.
+            </p>
+            <div class="img-article w-full md:w-3/12">
+              <img src="https://fastly.picsum.photos/id/428/300/200.jpg?hmac=ikKOcamKDMicSZKD7eMbhzgMNNbyCucuLohsjaMt740"
+                alt="img-article-1" class="w-full" />
+            </div>
+          </div>
+
+          <div class="contain-commentaires mt-2">
+            <details>
+              <summary>
+                <button class="bg-blue-500 text-white px-4 py-2 ml-2" aria-expanded="false">
+                  Commentaires (0)
+                </button>
+              </summary>
+              <div class="contain-commentaires p-4">
+                <p>Commentaire 1</p>
+                <p>Commentaire 2</p>
+              </div>
+            </details>
+            <button class="bg-blue-500 text-white px-4 py-2 ml-2">Voir plus</button>
+          </div>
+
+        </div>
+        <hr />
+      </div>
+
+      <a href="#top">
+        <div id="btn-back-top">
+          <img role="img" src="./assets/arrow.png" alt="arrow-up" class="w-10 h-10 bottom-20 fixed right-10" />
+        </div>
+      </a>
+    </main>
+
+    <div id="footer" class="fixed bottom-0 w-full bg-gray-200 p-4">
+      <p>&copy; 2024 Test. Tous droits réservés.</p>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
