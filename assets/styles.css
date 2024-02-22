@@ -1,0 +1,28 @@
+.articles{
+    width:80%;
+    background-color: rgb(240, 240, 240);
+    padding:1rem;
+    border-radius: 0.3rem;
+}
+
+.detail-articles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.list-articles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-back-top{
+    background-color: rgb(186, 186, 186);
+    position: fixed;
+            bottom: 20px;
+            right: 10px;
+            cursor: pointer;
+
+}

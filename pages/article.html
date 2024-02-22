@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <title>Accueil</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+
+  <body>
+    <div class="container mx-auto flex flex-col w-full">
+        <a id="top"></a>
+      <header
+        id="header"
+        class="w-full p-4 flex flex-col md:flex-row justify-between items-center md:items-start"
+      >
+        <div id="infos-header" class="flex items-center mb-2 md:mb-0">
+          <div id="logo" class="w-10 h-10 bg-gray-500"></div>
+          <h2 class="ml-2">Accueil</h2>
+        </div>
+
+        <div id="menu">
+          <h2>Login</h2>
+        </div>
+      </header>
+     
+      <main id="content w-full mx-auto">
+       <div id="article" class="w-full mx-auto">
+        <h1 id="title-article">Titre article</h1>
+        <p  id="description-article" class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+            mollis eleifend dui, aliquam viverra augue sodales a. Ut tortor
+            massa, aliquet semper aliquam ac, elementum nec purus. Mauris
+            eget varius sem, et vulputate dolor. Aliquam dictum facilisis
+            augue, non efficitur nisl sollicitudin quis. Sed vitae convallis
+            velit, aliquet consectetur purus. Nulla eget libero congue,
+            vehicula libero quis, laoreet sapien. Suspendisse id porta
+            mauris, a finibus purus. Donec sagittis enim pretium massa
+            blandit sodales. In ex mi, volutpat eget nisl id, ornare
+            fringilla nisl. Aenean quis porta felis. Morbi in dui auctor,
+            lobortis odio eget, commodo nisi. Nulla tempor suscipit ligula
+            id posuere. Fusce aliquet nisl sit amet turpis gravida, in
+            hendrerit libero vehicula.
+          </p>
+        <div id="table">
+
+        </div>
+        </div>
+
+
+        <a href="#top">
+            <div id="btn-back-top">
+                <img src="./assets/arrow.png" alt="arrow-up" class="w-10 h-10 bottom-20 fixed right-10" />
+            </div>
+        </a>
+    </main>
+      <div id="footer" class="fixed bottom-0 w-full bg-gray-200 p-4">
+        <p>&copy; 2024 Test. Tous droits réservés.</p>
+      </div>
+    </div>
+  </body>
+</html>
