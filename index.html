@@ -43,7 +43,11 @@
           <h2 class="text-3xl font-bold text-left">Liste d'Articles</h2>
 
           <div class="articles m-2">
-            <h1 class="mb-4 text-lg md:text-xl">Neon Graveyard</h1>
+            <a href="./pages/article.html">
+              <h1 class="font-bold mb-4 text-lg md:text-xl">
+                Neon Graveyard
+              </h1></a
+            >
 
             <div class="detail-articles flex flex-col md:flex-row items-center">
               <p class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2">
@@ -82,24 +86,41 @@
                     class="bg-blue-700 text-white px-4 py-2 ml-2"
                     aria-expanded="false"
                   >
-                    Commentaires (0)
+                    Commentaires (1)
                   </button>
                 </summary>
                 <div class="contain-commentaires p-4">
-                  <p>Commentaire 1</p>
-                  <p>Commentaire 2</p>
+                  <div
+                    class="commentaire flex flex-col md:flex-row items-center mb-4 mt-4"
+                    role="article"
+                    id="user1-heading"
+                    aria-labelledby="user1-heading"
+                  >
+                    <div
+                      class="w-12 h-12 bg-gray-500 rounded-full mr-4"
+                      aria-hidden="true"
+                    ></div>
+
+                    <div class="flex-1">
+                      <h3 class="text-lg font-semibold mb-2">Toutpareil</h3>
+
+                      <p class="text-gray-700">
+                        Les beats de Neon Graveyard sont une véritable éruption
+                        sonore. Chaque note semble être une invitation à
+                        explorer un monde électro mystérieux. Une expérience
+                        musicale incontournable !
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </details>
-              <a href="./pages/article.html">
-                <button class="bg-blue-700 text-white px-4 py-2 ml-2">
-                  Voir plus
-                </button></a
-              >
             </div>
           </div>
 
           <div class="articles m-2">
-            <h1 class="mb-4 text-lg md:text-xl">Au dessus des nuages</h1>
+            <h1 class="mb-4 text-lg md:text-xl font-bold">
+              Au dessus des nuages
+            </h1>
 
             <div class="detail-articles flex flex-col md:flex-row items-center">
               <p class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2">
@@ -146,14 +167,11 @@
                   <p>Commentaire 2</p>
                 </div>
               </details>
-              <button class="bg-blue-700 text-white px-4 py-2 ml-2">
-                Voir plus
-              </button>
             </div>
           </div>
 
           <div class="articles m-2">
-            <h1 class="mb-4 text-lg md:text-xl">Article 1</h1>
+            <h1 class="mb-4 text-lg md:text-xl font-bold">Article 1</h1>
 
             <div class="detail-articles flex flex-col md:flex-row items-center">
               <p class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2">
@@ -200,14 +218,11 @@
                   <p>Commentaire 2</p>
                 </div>
               </details>
-              <button class="bg-blue-700 text-white px-4 py-2 ml-2">
-                Voir plus
-              </button>
             </div>
           </div>
 
           <div class="articles m-2">
-            <h1 class="mb-4 text-lg md:text-xl">Article 1</h1>
+            <h1 class="mb-4 text-lg md:text-xl font-bold">Article 1</h1>
 
             <div class="detail-articles flex flex-col md:flex-row items-center">
               <p class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2">
@@ -254,14 +269,11 @@
                   <p>Commentaire 2</p>
                 </div>
               </details>
-              <button class="bg-blue-700 text-white px-4 py-2 ml-2">
-                Voir plus
-              </button>
             </div>
           </div>
 
           <div class="articles m-2">
-            <h1 class="mb-4 text-lg md:text-xl">Article 1</h1>
+            <h1 class="mb-4 text-lg md:text-xl font-bold">Article 1</h1>
 
             <div class="detail-articles flex flex-col md:flex-row items-center">
               <p class="w-full md:w-9/12 mb-4 md:mb-0 md:mr-2">
@@ -308,9 +320,6 @@
                   <p>Commentaire 2</p>
                 </div>
               </details>
-              <button class="bg-blue-700 text-white px-4 py-2 ml-2">
-                Voir plus
-              </button>
             </div>
           </div>
         </div>
