@@ -42,3 +42,10 @@
     align-items: center;
     margin-top:1rem;
 }
+#img-couverture {
+    background-position: center bottom;
+}
+
+.div-article{
+    height:200px;
+}

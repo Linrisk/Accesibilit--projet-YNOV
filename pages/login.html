@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+ 
+<html lang="fr">
+  <head>
+    <title>Connexion</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+ 
+  <body>
+    <div class="container mx-auto flex flex-col w-full">
+        <a id="top"></a>
+      <header
+        id="header"
+        class="w-full p-4 flex flex-col md:flex-row justify-between items-center md:items-start"
+      >
+        <div id="infos-header" class="flex items-center mb-2 md:mb-0">
+          <div id="logo" class="w-10 h-10 bg-gray-500"></div>
+        </div>
+      </header>
+     
+      <main id="content w-full mx-auto">
+       <div id="connexion" class="w-full mx-auto">
+        <h2 id="title-connexion" class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Connexion</h2>
+       
+        <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+            <form id="form-login" class="space-y-6">
+                <div>
+                    <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email :</label>
+                    <div class="mt-2">
+                        <input type="text" id="email" name="email" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                    </div>
+                </div>
+                <div>
+                    <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Mot de passe :</label>
+                    <div class="mt-2">
+                        <input type="password" id="password" name="password" required class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                    </div>
+                </div>
+                <div>
+                    <button id="button-connecter" type="submit" class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Me connecter</button>
+                </div>
+            </form>
+        </div>
+ 
+        <a href="#top">
+            <div id="btn-back-top">
+                <img src="./assets/arrow.png" alt="arrow-up" class="w-10 h-10 bottom-20 fixed right-10" />
+            </div>
+        </a>
+    </main>
+      <div id="footer" class="fixed bottom-0 w-full bg-gray-200 p-4">
+        <p>&copy; 2024 Test. Tous droits réservés.</p>
+      </div>
+    </div>
+  </body>
+</html>
