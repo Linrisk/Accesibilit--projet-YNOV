@@ -24,25 +24,26 @@
         class="w-full p-4 flex flex-col md:flex-row justify-between items-center md:items-start"
       >
         <div id="infos-header" class="flex items-center mb-2 md:mb-0">
-          <div id="logo" class="w-10 h-10 bg-gray-500"></div>
-          <a href="../index.html" class="ml-2"
-            ><h2 id="redirect-accueil">Accueil</h2></a
-          >
+          <div id="logo" class="w-10 h-10 bg-gray-500">
+            <img src="./assets/logo_site.png" alt="logo blog" />
+          </div>
+
+          <a href="./index.html" class="ml-2">Mon blog</a>
         </div>
 
-        <div id="menu">
-          <a href="./pages/login.html"><h2>Deconnexion</h2></a>
-        </div>
+        <nav id="menu">
+          <a href="./pages/login.html">Deconnexion</a>
+        </nav>
       </header>
 
       <main class="content w-full mx-auto">
-        <div
+        <section
           id="list-articles"
           class="w-full justify-center flex align-center mx-auto flex-col justify-center items-center"
         >
-          <h2 class="text-3xl font-bold text-left">Liste d'Articles</h2>
+          <h1 class="text-3xl font-bold text-left">Liste d'Articles</h1>
 
-          <div class="articles m-2">
+          <article class="articles m-2">
             <a href="./pages/article.html">
               <h1 class="font-bold mb-4 text-lg md:text-xl">
                 Neon Graveyard
@@ -99,7 +100,9 @@
                     <div
                       class="w-12 h-12 bg-gray-500 rounded-full mr-4"
                       aria-hidden="true"
-                    ></div>
+                    >
+                      <img src="./assets/logo.png" alt="img profile personne" />
+                    </div>
 
                     <div class="flex-1">
                       <h3 class="text-lg font-semibold mb-2">Toutpareil</h3>
@@ -115,7 +118,7 @@
                 </div>
               </details>
             </div>
-          </div>
+          </article>
 
           <div class="articles m-2">
             <h1 class="mb-4 text-lg md:text-xl font-bold">
@@ -322,7 +325,7 @@
               </details>
             </div>
           </div>
-        </div>
+        </section>
 
         <a href="#top">
           <div id="btn-back-top" role="img">
@@ -335,13 +338,12 @@
         </a>
       </main>
 
-      <div
+      <footer
         id="footer"
         class="fixed bottom-0 w-full bg-gray-200 p-4 sm:p-4 md:p-4 lg:p-4 xl:p-4"
-        role="contentinfo"
       >
         <p>&copy; 2024 Test. Tous droits réservés.</p>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
